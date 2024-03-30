@@ -9,6 +9,7 @@ import com.example.kotlin65.R
 import com.example.kotlin65.databinding.FragmentRickAndMortyBinding
 import com.example.kotlin65.ui.adapters.RickAndMortyAdapter
 import dagger.hilt.android.AndroidEntryPoint
+import javax.inject.Inject
 
 @AndroidEntryPoint
 class RickAndMortyFragment : Fragment(R.layout.fragment_rick_and_morty) {
