@@ -1,5 +1,6 @@
 package com.example.kotlin65.ui.fragments
 
+import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
@@ -22,6 +23,11 @@ class RickAndMortyViewModel @Inject constructor(
 
     init {
         getModel()
+        printMessage()
+    }
+
+    private fun printMessage() {
+        Log.e("tag", "printMessage: ", )
     }
 
     fun getModel() {
